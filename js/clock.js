@@ -1,4 +1,8 @@
 const name = document.querySelector("#myName");
+nameProm = prompt("Adınız Nedir? ");
+name.innerHTML = nameProm;
+
+
 const saat = document.querySelector("#myClock");
 
 function showCurrentTime() {
@@ -30,6 +34,5 @@ function showCurrentTime() {
 
   setInterval(showCurrentTime, 1000);
 
-nameProm = prompt("Adınız Nedir? ");
-name.innerHTML = nameProm;
+
 
